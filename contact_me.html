@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>My contact Details</h1>
+  <p>maillagudem</p>
+  <p>khammam</p>
+  <p>Telangana</p>
+  <p>India</p>
+
+  <form class="" action="mailto:tatikondavivek1@gmail.com" method="post" enctype="text/plain">
+    <button type="button" name="button">Add to fav</button>
+    <br>
+
+    <p>Choose your monster's features:</p>
+
+    <div>
+      <input type="checkbox" id="scales" name="scales" checked>
+      <label for="scales">Scales</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="horns" name="horns">
+      <label for="horns">Horns</label>
+    </div>
+    <br>
+
+    <p>Choose your monster's features:</p>
+
+    <p>Choose your monster's colors:</p>
+
+    <div>
+      <input type="color" id="head" name="head" value="#e66465">
+      <label for="head">Head</label>
+    </div>
+
+    <div>
+      <input type="color" id="body" name="body" value="#f6b73c">
+      <label for="body">Body</label>
+    </div>
+    <br>
+
+    <label for="start">Start date:</label>
+
+    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+    <br>
+
+    <label> Enter your birthday:<input type="date" name="bday"></label><br>
+
+    <label for="email">Enter your globex.com email:</label>
+
+    <input type="email" id="email" pattern=".+@globex\.com" size="30">
+
+    <div>
+      <label for="file">Choose file to upload</label>
+      <input type="file" id="file" name="file" multiple>
+    </div>
+
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+    </div>
+
+    <div>
+      <label for="pass">Password (8 characters minimum):</label>
+      <input type="password" id="pass" name="password" minlength="8" required>
+    </div>
+
+    <input type="submit" value="Sign in">
+
+    <p>Select a maintenance drone:</p>
+
+    <div>
+      <input type="radio" id="huey" name="drone" value="huey" checked>
+      <label for="huey">Huey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="dewey" name="drone" value="dewey">
+      <label for="dewey">Dewey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="louie" name="drone" value="louie">
+      <label for="louie">Louie</label>
+    </div>
+
+    <p>Audio settings:</p>
+
+    <div>
+      <input type="range" id="volume" name="volume" min="0" max="11">
+      <label for="volume">Volume</label>
+    </div>
+
+    <div>
+      <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10">
+      <label for="cowbell">Cowbell</label>
+    </div>
+
+    <label for="url">Enter an https:// URL:</label>
+
+    <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+
+    <label for="story">Tell us your story:</label>
+
+    <textarea id="story" name="story" rows="5" cols="33">
+    It was a dark and stormy night...
+    </textarea>
+
+
+
+
+
+
+
+    <br>
+    <input type="submit" name="" ">
+
+
+
+
+</form>
+  </body>
+</html>
